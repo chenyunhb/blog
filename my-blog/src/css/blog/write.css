@@ -1,0 +1,10 @@
+.write-button {
+  background-color: rgb(255,0,0);
+  color: rgb(255,255,255);
+  width: 80px;
+  height: 30px;
+}
+
+.write {
+  margin: 10px;
+}

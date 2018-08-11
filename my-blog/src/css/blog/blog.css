@@ -1,0 +1,11 @@
+.blog-title {
+  font-size: 20px;
+}
+
+.blog-title a {
+  color: rgb(0,0,0);
+}
+
+.blog-title a:hover {
+  color: rgb(255,0,0);
+}

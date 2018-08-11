@@ -1,0 +1,15 @@
+.list-write a {
+  color: rgb(0,0,0);
+}
+
+.list-write a:hover {
+  color: rgb(255,0,0);
+}
+
+.list-write {
+  height: 30px;
+}
+
+.list {
+  margin: 10px;
+}
