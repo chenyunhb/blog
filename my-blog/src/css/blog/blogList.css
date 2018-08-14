@@ -7,9 +7,97 @@
 }
 
 .list-write {
+  float: right;
   height: 30px;
 }
 
+.blogs {
+  clear: right;
+}
+
 .list {
-  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 1350px;
+}
+
+.blog {
+  width: 1030px;
+  background-color: #ffffff;
+}
+
+.list-sort {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.all-blog {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+.all-blog-title {
+  color: #000000;
+}
+.all-blog-title:hover {
+  color: rgb(255,0,0);
+}
+
+.sort {
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+}
+
+.sort-title {
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 1px solid #000000;
+}
+
+.sort-all-list {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.sort-list:hover {
+  background-color: rgba(0, 4, 255, 0.233);
+}
+
+.sort-list a{
+  color:black;
+}
+
+.tag {
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+}
+
+.tag-all-list {
+  margin: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-list {
+  padding: 5px;
+  margin-right: 10px;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 25px;
+}
+
+.tag-list:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(255,0,0);
+}
+
+.tag-list-div {
+  margin-bottom: 15px;
 }
