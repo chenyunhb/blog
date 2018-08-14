@@ -9,3 +9,11 @@
 .blog-title a:hover {
   color: rgb(255,0,0);
 }
+
+.bloglist {
+  display: flex;
+}
+
+.bloglist div {
+  margin-right: 5px;
+}

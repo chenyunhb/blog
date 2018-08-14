@@ -1,10 +1,53 @@
-.write-button {
-  background-color: rgb(255,0,0);
-  color: rgb(255,255,255);
-  width: 80px;
-  height: 30px;
+.write {
+  width: 1340px;
+  background-color: #ffffff;
 }
 
-.write {
-  margin: 10px;
+.write-text {
+  margin: 20px;
+}
+
+.write-text-input {
+  box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.7em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+}
+
+.write-radio {
+  margin: 10px 20px;
+  display: flex;
+  border: 1px solid #0000003d;
+  padding: 10px 0px;
+}
+
+.write-radio div {
+  margin-left: 7px;
+}
+
+.write-editor {
+  margin: 20px;
+  border: 1px solid #0000003d;
+}
+
+.write-button {
+  margin-left: 20px;
+}
+
+.write-button-input {
+  background-color: rgb(255,0,0);
+  color: rgb(255,255,255);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
 }
