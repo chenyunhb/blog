@@ -7,7 +7,7 @@ module.exports = appInfo => {
 	config.keys = appInfo.name + '_1521736151885_6953';
 
 	// add your config here
-	config.middleware = [];
+	config.middleware = ['xdr'];
 
 	config.view = {
 		mapping: {
