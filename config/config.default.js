@@ -7,7 +7,7 @@ module.exports = appInfo => {
 	config.keys = appInfo.name + '_1521736151885_6953';
 
 	// add your config here
-	config.middleware = ['xdr'];
+	// config.middleware = ['xdr'];
 
 	config.view = {
 		mapping: {
@@ -40,6 +40,23 @@ module.exports = appInfo => {
 		//   }
 		// }
 	};
+
+	config.security = {
+		csrf           : {
+			enable: false,
+		},
+		domainWhiteList: [
+			'http://localhost:63342',
+			'http://127.0.0.1:63342',
+			'http://localhost:3000',
+			'http://127.0.0.1:3000',
+		],
+	};
+
+	config.cors = {
+		allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
+	};
+
 
 	return config;
 };

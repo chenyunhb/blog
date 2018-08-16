@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+			fetch('http://127.0.0.1:7001/api/blog/5b744fee7afe6a065d5ab629', {
+				method : 'PUT',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body   : JSON.stringify({
+					title   : '标题1',
+					summary : '摘要1',
+					content : '正文1',
+					category: '默认1',
+					tags    : ['分类1', '分类2'],
+				}),
+			}).then(res => res.json())
+				.catch(error => console.error('Error:', error))
+				.then(response => console.log('Success:', response));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
