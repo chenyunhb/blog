@@ -1,0 +1,310 @@
+{
+  "keys": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+  "view": {
+    "mapping": {
+      ".ejs": "/Users/woodsrong/Documents/blog/blog/config/config.default.js"
+    },
+    "root": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view/config/config.default.js"
+  },
+  "mongoose": {
+    "client": {
+      "url": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+      "options": "/Users/woodsrong/Documents/blog/blog/config/config.default.js"
+    },
+    "url": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-mongoose/config/config.default.js",
+    "options": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "rest": {
+    "authRequest": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+    "authIgnores": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+    "urlprefix": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-rest/config/config.default.js",
+    "production": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-rest/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+      "useSession": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/woodsrong/Documents/blog/blog/config/config.default.js",
+    "protocolWhiteList": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "allowMethods": "/Users/woodsrong/Documents/blog/blog/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-static/config/config.default.js"
+  },
+  "ejs": {
+    "root": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.default.js",
+    "cache": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.local.js",
+    "debug": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.default.js",
+    "compileDebug": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.default.js",
+    "delimiter": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.default.js",
+    "strict": "/Users/woodsrong/Documents/blog/blog/node_modules/egg-view-ejs/config/config.default.js"
+  },
+  "env": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "name": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "version": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "description": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "private": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "crawler": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-rest": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-view-ejs": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "stop": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "dev": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "debug": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "test": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "cov": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "lint": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "ci": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "autod": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "url": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "license": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "strict": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "depth": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "env": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "level": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "logging": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "port": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/woodsrong/Documents/blog/blog/node_modules/egg/config/config.default.js"
+}
