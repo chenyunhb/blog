@@ -3,7 +3,7 @@ import BlogSort from '../components/blog/blogSort';
 import {showSort} from '../actions/action';
 
 const getSize = (blogs) => {
-  return blogs.filter(blog => blog.sort==="前端").length;
+  return blogs.filter(blog => blog.category==="前端").length;
 }
 
 const mapStateToProps = state => ({

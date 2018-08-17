@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import BlogList from '../components/blog/blogList';
-import { blog } from '../actions/action';
+import { blog,updateId,deleteBlog } from '../actions/action';
 import {showFrontEnd,showAllSort} from '../actions/sortType';
 import {showJS,showES,showReact,showCss,showAllTag} from '../actions/tagType';
 
@@ -8,7 +8,7 @@ const getBlog= (blogs,sort,tag) => {
   let sortList,tagList;
   switch(sort){
     case showFrontEnd:
-    sortList=blogs.filter(blog => blog.sort==='前端');
+    sortList=blogs.filter(blog => blog.category==='前端');
     break;
     case showAllSort:
     sortList=blogs;
@@ -18,16 +18,16 @@ const getBlog= (blogs,sort,tag) => {
   }
   switch(tag){
     case showJS:
-    tagList=blogs.filter(blog => blog.tag.some(value => value==="JavaScript"));
+    tagList=blogs.filter(blog => blog.tags.some(value => value==="JavaScript"));
     break;
     case showES:
-    tagList=blogs.filter(blog => blog.tag.some(value => value==="ES6"));
+    tagList=blogs.filter(blog => blog.tags.some(value => value==="ES6"));
     break;
     case showReact:
-    tagList=blogs.filter(blog => blog.tag.some(value => value==="React"));
+    tagList=blogs.filter(blog => blog.tags.some(value => value==="React"));
     break;
     case showCss:
-    tagList=blogs.filter(blog => blog.tag.some(value => value==="CSS"));
+    tagList=blogs.filter(blog => blog.tags.some(value => value==="CSS"));
     break;
     case showAllTag:
     tagList=blogs;
@@ -43,7 +43,9 @@ const mapStateToProps=state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  toggleBlog: id => dispatch(blog(id))
+  toggleBlog: id => (dispatch(blog(id)),dispatch(updateId(id))),
+  Update: id => dispatch(updateId(id)),
+  Delete: id => dispatch(deleteBlog(id))
 })
 
 export default connect(

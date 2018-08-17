@@ -69,6 +69,7 @@ class WriteBlog extends React.Component {
     return this.state.introductionValue=e;
   }
   contentChange(e){
+    console.log(e);
     return this.state.contentValue=e;
   }
   sortChange(e){

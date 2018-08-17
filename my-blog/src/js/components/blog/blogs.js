@@ -6,14 +6,20 @@ import dateImg from '../../../img/date.jpg';
 import sortImg from '../../../img/sort.jpg';
 import tagImg from '../../../img/tag.jpg';
 
-const Blogs=({onClick,title,date,introduction,sort,tag}) => (
+const Blogs=({onClick,onClickUpdate,onClickDelete,title,summary,category,tags,modifyTime}) => (
   <div>
+    <div className="blog-all">
     <div onClick={onClick} className="blog-title"><Link to="/blog/content">{title}</Link></div>
-    <div dangerouslySetInnerHTML={{__html: introduction}}></div>
+    <div>
+    <div onClick={onClickUpdate}><Link to="/blog/update">编辑</Link></div>
+        <div onClick={onClickDelete}><a className="blog-delete">删除</a></div>
+      </div>
+    </div>
+    <div dangerouslySetInnerHTML={{__html: summary}}></div>
     <div className="bloglist">
-      <div><img src={dateImg} />{date}</div>
-      <div><img src={sortImg} />{sort}</div>
-      <div><img src={tagImg} />{tag.join(" ")}</div>
+      <div><img src={dateImg} />{modifyTime.substring(0,10)}</div>
+      <div><img src={sortImg} />{category}</div>
+      <div><img src={tagImg} />{tags.join(" ")}</div>
     </div>
     <hr/>
   </div>
@@ -22,7 +28,7 @@ const Blogs=({onClick,title,date,introduction,sort,tag}) => (
 Blogs.propTypes = {
   onClick: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
-  introduction: PropTypes.string.isRequired
+  summary: PropTypes.string.isRequired
 }
 
 export default Blogs;
