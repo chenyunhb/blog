@@ -1,5 +1,7 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = appInfo => {
 	const config = module.exports = {};
 
@@ -55,6 +57,11 @@ module.exports = appInfo => {
 
 	config.cors = {
 		allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
+	};
+
+	config.static = {
+		prefix: '/',
+		dir: path.join(appInfo.baseDir, 'my-blog/build'),
 	};
 
 
