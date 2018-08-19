@@ -9,5 +9,20 @@
 }
 
 .content {
+  width: 1330px;
+  background-color: rgb(255,255,255);
   margin: 10px;
+  padding: 10px;
+}
+
+.content-change {
+  float: right;
+}
+
+.content-delete {
+  color: rgb(255,0,0);
+}
+
+.content-delete:hover {
+  color: rgba(255, 0, 0, 0.733);
 }

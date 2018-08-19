@@ -17,3 +17,16 @@
 .bloglist div {
   margin-right: 5px;
 }
+
+.blog-all {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-delete {
+  color: rgb(255,0,0);
+}
+
+.blog-delete:hover {
+  color: rgba(255, 0, 0, 0.733);
+}
