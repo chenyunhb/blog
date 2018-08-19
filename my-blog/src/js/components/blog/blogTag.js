@@ -8,10 +8,10 @@ const BlogTag = ({onClick,blogs}) => (
   <div className="tag">
     <div className="sort-title"><img src={tagTitle} />标签</div>
     <div className="tag-all-list">
-    <div onClick={() => onClick(showJS)} className="tag-list-div"><a className="tag-list">JavaScript({blogs.filter(blog => blog.tag.some(value => value==="JavaScript")).length})</a></div>
-      <div onClick={() => onClick(showES)} className="tag-list-div"><a className="tag-list">ES6({blogs.filter(blog => blog.tag.some(value => value === "ES6")).length})</a></div>
-      <div onClick={() => onClick(showReact)} className="tag-list-div"><a className="tag-list">React({blogs.filter(blog => blog.tag.some(value => value === "React")).length})</a></div>
-      <div onClick={() => onClick(showCss)} className="tag-list-div"><a className="tag-list">CSS({blogs.filter(blog => blog.tag.some(value => value === "CSS")).length})</a></div>
+    <div onClick={() => onClick(showJS)} className="tag-list-div"><a className="tag-list">JavaScript({blogs.filter(blog => blog.tags.some(value => value==="JavaScript")).length})</a></div>
+      <div onClick={() => onClick(showES)} className="tag-list-div"><a className="tag-list">ES6({blogs.filter(blog => blog.tags.some(value => value === "ES6")).length})</a></div>
+      <div onClick={() => onClick(showReact)} className="tag-list-div"><a className="tag-list">React({blogs.filter(blog => blog.tags.some(value => value === "React")).length})</a></div>
+      <div onClick={() => onClick(showCss)} className="tag-list-div"><a className="tag-list">CSS({blogs.filter(blog => blog.tags.some(value => value === "CSS")).length})</a></div>
     </div>
   </div>
 )

@@ -3,6 +3,7 @@ import {HashRouter,Route} from 'react-router-dom';
 import BlogList from '../connect/blogListConnect';
 import BlogContent from '../connect/contentConnect';
 import WriteBlog from '../components/blog/writeBlog';
+import UpdateBlog from '../components/blog/updateBlog';
 import '../../css/blog/blogIndex.css';
 
 export default class Blog extends React.Component{
@@ -14,6 +15,7 @@ export default class Blog extends React.Component{
         <Route path="/blog/index" component={BlogList} />
         <Route path="/blog/content" component={BlogContent} />
         <Route path="/blog/write" component={WriteBlog} />
+        <Route path="/blog/update" component={UpdateBlog} />
       </div>
     </div>
       </HashRouter>)

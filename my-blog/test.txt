@@ -1,1 +1,10 @@
-blog:title,date,introduction,content,id
+{
+  type:'ADD_BLOG',
+  title:title,
+  introduction:introduction,
+  content:content,
+  sort: sort,
+  tag: tag,
+  date:(new Date()).toLocaleDateString(),
+  modifyDate:(new Date()).toLocaleDateString()
+}

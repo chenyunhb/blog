@@ -5,29 +5,6 @@ import BraftEditor from 'braft-editor'
 import 'braft-editor/dist/braft.css'
 import '../../../css/blog/write.css'
 
-/*const WriteBlog=({dispatch}) => {
-  let inputTitle,inputIntroduction,inputContent;
-
-  return (
-    <div className="write">
-      <form onSubmit={e => {
-        e.preventDefault();
-        if(!inputTitle.value.trim()||!inputIntroduction.value.trim()||!inputContent.value.trim()){
-          return
-        }
-        dispatch(addBlog(inputTitle.value,inputIntroduction.value,inputContent.value))
-        inputTitle.value='';
-        inputIntroduction.value='';
-        inputContent.value='';
-      }}>
-        <div><p>标题:</p><input size="40" ref={node => inputTitle = node} /></div>
-        <div><p>简介:</p><textarea rows="5" cols="150" ref={node => inputIntroduction = node} /></div>
-        <div><p>内容:</p><textarea rows="20" cols="150" ref={node => inputContent = node} /></div>
-        <button type="submit" className="write-button">发布博客</button>
-      </form>
-    </div>
-  )
-}*/
 class WriteBlog extends React.Component {
   constructor() {
     super()
@@ -41,7 +18,6 @@ class WriteBlog extends React.Component {
     }
   }
   render() {
-    const {dispatch} = this.props;
     return (
       <div className="write">
         <div className="write-text"><input type="text" onChange={e => this.titleChange(e)} placeholder="标题" className="write-text-input" /></div>
@@ -63,12 +39,13 @@ class WriteBlog extends React.Component {
   }
 
   titleChange(e){
-    return this.state.titleValue=e.target.value;
+    return this.setState({titleValue:e.target.value});
   }
   introductionChange(e){
     return this.state.introductionValue=e;
   }
   contentChange(e){
+    console.log(e);
     return this.state.contentValue=e;
   }
   sortChange(e){

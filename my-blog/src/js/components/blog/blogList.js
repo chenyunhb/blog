@@ -8,21 +8,23 @@ import SortConnect from '../../connect/sortConnect';
 import AllConnect from '../../connect/allConnect';
 import TagConnect from '../../connect/tagConnect';
 
-const BlogList = ({blogs,toggleBlog}) => (
+const BlogList = ({blogs,toggleBlog,Update,Delete}) => (
   <div className="list">
   <div className="blog">
-      <div className="list-write"><div><img src={writeblog} /><Link to="/blog/write">写博客</Link></div></div>
+      <div className="list-write"><div><img src={writeblog} alt="写博客" /><Link to="/blog/write">写博客</Link></div></div>
       <div className="blogs">
     {
-      blogs.map(blog =>
+      blogs.map((blog,id) =>
       <Blogs
-    key={blog.id}
+    key={id}
     title={blog.title}
-    introduction={blog.introduction}
-    date={blog.date}
-    sort={blog.sort}
-    tag={blog.tag}
-    onClick={() => toggleBlog(blog.id)}
+    summary={blog.summary}
+    modifyTime={blog.modifyTime}
+    category={blog.category}
+    tags={blog.tags}
+    onClick={() => toggleBlog(id)}
+    onClickUpdate={() => Update(id)}
+    onClickDelete={() => Delete(blog._id)}
     />
       )}
       </div>
